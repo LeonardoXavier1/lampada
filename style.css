@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(101, 129, 138, 0.952);
+    background-color: #65818af3;
 }
 
 header,
@@ -9,13 +9,29 @@ main {
     align-items: center;
     color: rgb(4, 74, 155);
 }
-button {
-    width: 100px;
-    color: rgb(4, 74, 155);
-    border-radius: 4px;
-    background-color: rgba(101, 129, 138, 0.952);
+.button {
+    width: 99px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
 
-}
+  .button:hover {background-color: #a0c7a2}
+
+  .button:active {
+    background-color: #0df8f8;
+    box-shadow: 0 5px #1b1818;
+    transform: translateY(4px);
+  }
 
 footer{
 
